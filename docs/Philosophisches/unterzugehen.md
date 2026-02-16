@@ -21,12 +21,9 @@ Der Fluss des Lebens ist ständig in Bewegung. Er ist kein See und auch kein Mee
 <em>Nicht der Fluss drohte, mich zu ertränken, sondern meine Angst davor, unterzugehen.</em>
 </div>
 
-<div class="separator">
-⸻⸻⸻
-</div>
 
 <div class="end-link">
-<a href="/docs/Philosophisches/fluss.html">Fluss</a>
+Fortsetzung: <a href="/docs/Philosophisches/fluss.html">Fluss</a>
 </div>
 
 
