@@ -13,4 +13,4 @@ has_children: false
 <br><br>
 <center>Setz dich gern und bleib, solange du magst.</center>
 <br><br>
-<center>☼</center>
+<center>ᆔ</center>

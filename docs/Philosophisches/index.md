@@ -7,3 +7,6 @@ has_toc: true
 ---
 <br>
 # Philosophisches
+<center><span style="font-size: 0.8em; font-style: italic;">gr. philosophia "Liebe zur Weisheit"</span></center>
+
+<br><br>
