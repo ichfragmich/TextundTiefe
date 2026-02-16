@@ -23,7 +23,6 @@ nav_order: 2
 <br><br><br>
 <center>⸻⸻⸻</center>
 <br>
-weiterlesen in: [Fluss](/fluss/)
-[Fluss](/docs/Philosophisches/fluss.html/)
+
 [Fluss](/Philosophisches/fluss/)
 
