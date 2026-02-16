@@ -3,7 +3,9 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 color_scheme: dark
 
-url: https://just-the-docs.github.io
+url: "https://ichfragmich.github.io"
+baseurl: "/TextundTiefe"
+
 
 
 search_enabled: false
