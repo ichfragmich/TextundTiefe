@@ -25,5 +25,5 @@ nav_order: 2
 <br>
 weiterlesen in: [Fluss](/fluss/)
 [Fluss](/docs/Philosophisches/fluss.html/)
-[Fluss](/docs/Philosophisches/fluss/)
+[Fluss](/Philosophisches/fluss/)
 
