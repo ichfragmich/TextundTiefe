@@ -24,6 +24,7 @@ nav_order: 2
 <center>⸻⸻⸻</center>
 <br>
 
-[Fluss]({% link docs/Philosophisches/fluss.md %})
+{{ "/docs/Philosophisches/fluss/" | relative_url }}
+
 
 
