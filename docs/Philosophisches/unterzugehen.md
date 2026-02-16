@@ -22,7 +22,7 @@ nav_order: 2
 <center><em>Nicht der Fluss drohte, mich zu ertränken, sondern meine Angst davor, unterzugehen.</em></center>
 <br><br><br>
 <center>⸻⸻⸻</center>
-<br>
+
 
 [Fluss](/docs/Philosophisches/fluss.html)
 
