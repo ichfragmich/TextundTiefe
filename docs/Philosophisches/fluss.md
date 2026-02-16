@@ -7,7 +7,7 @@ nav_order: 3
 
 <br><br>
 # Fluss
-<center>⸻⸻⸻</center> 
+
 <br>
 <center>Nachdem der Fluss der Quelle entspringt, ist er noch wild und ungehalten. Obwohl die Menge seines Wassers kurz nach der Quelle oft geringer ist, fließt das Wasser durch das abfällige Gelände schneller, als im späteren Verlauf. Wie im Rausch beginnt er, sich seinen Weg zu bahnen, seine Umgebung zu formen und ebenso von ihr geformt zu werden, sich an sie anzupassen.</center>
 <p>

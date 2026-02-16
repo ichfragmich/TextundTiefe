@@ -8,9 +8,7 @@ nav_order: 2
 <br><br>
 
 # unterzugehen
-<div class="separator">
-⸻⸻⸻
-</div>
+
 
 <div class="center-text">
 Der Fluss des Lebens ist ständig in Bewegung. Er ist kein See und auch kein Meer. Oft habe ich mich darüber echauffiert und gewundert, warum nur das Leben so ist, wie es ist.

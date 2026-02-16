@@ -7,7 +7,7 @@ nav_order: 1
 
 <br><br>
 # Sich auch im Dunkeln gut finden
-<center>⸻⸻⸻</center> 
+
 <br><br>
 “Hallo?”, rief ich in die Dunkelheit, wobei ich weder ausmachen konnte, woher meine Stimme kam, noch, bis wohin sie reichte.
 <p><p><p>
