@@ -23,5 +23,5 @@ nav_order: 2
 <br><br><br>
 <center>⸻⸻⸻</center>
 <br>
-<center>weiterlesen in: [Fluss](/fluss/)</center>
+weiterlesen in: [Fluss](/fluss/)
 
