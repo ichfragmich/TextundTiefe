@@ -25,7 +25,11 @@ Der Fluss des Lebens ist ständig in Bewegung. Er ist kein See und auch kein Mee
 ⸻⸻⸻
 </div>
 
-Fortsetzung: [Fluss](/docs/Philosophisches/fluss.html)
+<div class="end-link">
+<a href="/docs/Philosophisches/fluss.html">Fluss</a>
+</div>
+
+
 
 
 
