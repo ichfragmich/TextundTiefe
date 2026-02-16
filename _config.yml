@@ -6,6 +6,7 @@ color_scheme: dark
 url: "https://www.textundtiefe.de"
 baseurl: ""
 
+heading_anchors: false
 
 
 search_enabled: false
