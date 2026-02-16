@@ -1,0 +1,268 @@
+// =============================
+// Variables
+// =============================
+$main-font: 'Raleway', sans-serif;
+$main-color: #adaaaa;
+$highlight-color: #9b8b6f;
+$bg-dark: #1a1a1a;
+$bg-darker: #0f0f0f;
+$font-weight-light: 100;
+$font-weight-normal: 200;
+$font-size-base: 17px;
+
+// =============================
+// Body & Links
+// =============================
+body {
+  font-family: $main-font;
+  color: #adaaaa;
+  font-weight: 250;
+  font-size: 17xp;
+}
+
+a {
+  color: $highlight-color;
+  text-decoration: none;
+}
+
+a:not([class]) {
+  text-decoration: underline;
+  text-decoration-color: $highlight-color;
+  text-underline-offset: 2px;
+}
+
+a:not([class]):hover {
+  text-decoration-color: $highlight-color;
+}
+
+// =============================
+// Site Title / Header
+// =============================
+.site-title {
+  font-family: $main-font;
+  color: #adaaaa;
+  font-size: 1.5rem !important;
+  font-weight: $font-weight-light;
+  line-height: 1;
+  display: flex;
+  align-items: center;      // vertikal zentrieren
+  justify-content: flex-start; // links
+  text-align: left;
+
+  a {
+    font-weight: inherit;   // verhindert Theme-Override
+  }
+}
+
+.site-header::before,
+.site-header::after {
+  display: none;
+}
+
+// =============================
+// Content Überschriften
+// =============================
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-light;
+  text-align: center;
+  line-height: 1;
+  color: $highlight-color;
+}
+
+.post-content h1 {
+  margin-top: 2.1em;
+  margin-bottom: 1em;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.35em;
+  text-decoration-color: currentColor;
+}
+
+.post-content h2 {
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+.post-content h3 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+hr {
+  display: none;
+}
+
+// =============================
+// Navigation Menu
+// =============================
+.nav-list .nav-list-item > .nav-list-link.active {
+  color: $highlight-color;
+  background-color: $bg-dark;
+}
+
+.nav-list .nav-list-item > .nav-list-link:hover {
+  background-color: $bg-darker;
+  color: $highlight-color;
+}
+
+// =============================
+// Hamburger Button
+// =============================
+.sidebar-toggle,
+#sidebar-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $highlight-color;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+
+  &:hover {
+    background-color: $bg-dark;
+  }
+}
+
+// =============================
+// Sidebar
+// =============================
+.sidebar {
+  transition: transform 0.3s ease;
+}
+
+// Wenn die Sidebar eingeklappt ist
+body.sidebar-closed .sidebar {
+  transform: translateX(-250px); // nach links schieben
+}
+
+// Für mobile standardmäßig verstecken
+@media (max-width: 768px) {
+  body:not(.sidebar-open) .sidebar {
+    transform: translateX(-250px);
+  }
+
+}
+
+// =============================
+// Header Inner (Flex)
+// =============================
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// === NUR DESKTOP ===
+@media (min-width: 66.5rem) {
+  .main-content {
+    max-width: 1000px; // Standard ist ~800–900
+  }
+}
+
+// Make main content wider
+.main-content {
+  max-width: 900px;
+}
+
+// Adjust sidebar width
+.side-bar {
+  width: 300px;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    margin-left: 250px;
+  }
+}
+
+// Make text bigger and centered
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+// Heading sizes
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+/* Pfeile in der Sidebar: keine Hover-Effekte */
+.nav-list .nav-list-item .nav-list-expander,
+.nav-list .nav-list-item .nav-list-expander:hover,
+.nav-list .nav-list-item .nav-list-expander:active {
+  color: #767676 !important;      // Pfeilfarbe
+  background: transparent !important; // kein Hintergrund beim Hover
+  box-shadow: none !important;    // evtl. Schatten entfernen
+}
+
+
+/* Sidebar: keine Hover- oder Active-Effekte */
+.nav-list .nav-list-item > .nav-list-link,
+.nav-list .nav-list-item > .nav-list-link:hover,
+.nav-list .nav-list-item > .nav-list-link.active {
+  color: #767676 !important;         // Textfarbe
+  background: transparent !important; // kein Hintergrund
+  box-shadow: none !important;       // alle Schatten killen
+  border: none !important;           // keine Rahmen
+  font-weight: 200 !important;
+  text-decoration: none !important;
+}
+
+/* Killen von Pseudo-Elementen, die Balken oder Effekte erzeugen */
+.nav-list .nav-list-item > .nav-list-link::before,
+.nav-list .nav-list-item > .nav-list-link::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* Statt nur .post-content h1,h2,h3… */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  font-weight: 100;
+  text-align: center;
+  line-height: 1;
+  color: #adaaaa;
+}
+
+.main-content h1 {
+  margin-top: 2.1em;
+  margin-bottom: 0.5em;
+  font-family: Sigmund Freud Typeface PRO;
+
+  text-decoration-line: none;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+
+
+
+
