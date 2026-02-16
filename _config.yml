@@ -8,6 +8,10 @@ baseurl: ""
 
 heading_anchors: false
 
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
+
 
 search_enabled: false
 
