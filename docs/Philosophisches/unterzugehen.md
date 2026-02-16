@@ -23,7 +23,8 @@ nav_order: 2
 <br><br><br>
 <center>⸻⸻⸻</center>
 
-<a href="/docs/Philosophisches/fluss.html">Fluss</a>
+[Fluss](/docs/Philosophisches/fluss.html)
+
 
 
 
