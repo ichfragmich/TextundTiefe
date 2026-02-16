@@ -12,7 +12,7 @@ title: über mich
 <center>Als ich es konnte, begann ich, Gedichte und Texte zu schreiben - bis heute habe ich nicht damit aufgehört.</center>
 
 <p><p>
-<center>Wie bei so vielen Dingen war auch ihre Nähe mir in manchen Zeiten zu viel und ich hätte mich nur allzu gern für immer von ihnen verabschiedet, zumindest von den dunklen, den harten.</center>
+<center>Wie bei so vielen Dingen war mir auch die Nähe von Worten in manchen Zeiten zu viel und ich hätte mich nur allzu gern für immer von ihnen verabschiedet, zumindest von den dunklen, den harten.</center>
 <p><p>
 <center>Doch sie sind geblieben und ich habe gelernt, dass es einzig an mir liegt, ob ich mich von ihnen zerstören oder wärmen lasse.</center>
 
