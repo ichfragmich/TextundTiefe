@@ -20,3 +20,6 @@ nav:
     url: /
 
 favicon_ico: /assets/images/favicon.ico
+
+sass:
+  style: compressed
