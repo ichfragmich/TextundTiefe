@@ -24,4 +24,6 @@ nav_order: 2
 <center>⸻⸻⸻</center>
 <br>
 weiterlesen in: [Fluss](/fluss/)
+[Fluss](/docs/Philosophisches/fluss.html/)
+[Fluss](/docs/Philosophisches/fluss/)
 
