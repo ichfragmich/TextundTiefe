@@ -5,17 +5,17 @@ parent: Philosophisches
 nav_order: 3
 ---
 
-<br><br>
 # Fluss
 
-<br>
-<center>Nachdem der Fluss der Quelle entspringt, ist er noch wild und ungehalten. Obwohl die Menge seines Wassers kurz nach der Quelle oft geringer ist, fließt das Wasser durch das abfällige Gelände schneller, als im späteren Verlauf. Wie im Rausch beginnt er, sich seinen Weg zu bahnen, seine Umgebung zu formen und ebenso von ihr geformt zu werden, sich an sie anzupassen.</center>
-<p>
-<br>
-<center><em>Irgendwann vielleicht wird er gleichmäßiger, als hätte er sich an das Fließen gewöhnt.</em></center>
-<p>
-<br>
-<center>Doch auch wenn sein Fließen von außen betrachtet gleichmäßig erscheint, ist es das niemals vollkommen. Nahe der Oberfläche und in seiner Mitte fließt das Wasser deutlich schneller, als am Grund und seinen Rändern, da dort die Begebenheiten der Natur in Form von Steinen, Pflanzen und dem Ufer bremsen, was sonst nur allzu schnell fließen mag.</center> 
+Wild und ungehalten ist der Fluss, der just geboren wurde. Sprudelnd macht er sich auf den Weg, entfernt sich von seiner Quelle. Seine Wassermenge zunächst noch gering, doch das hindert ihn nicht, das abfällige Gelände schnell -- wie im Rausch --  zu durchqueren. Vielleicht fühlt er den Drang, anzukommen. 
+
+So fließt er und während er fließt, formt er seine Umgebung und wird von ihr geformt. Hier und da Gründe, Kurven zu schaffen, doch so lange er nicht angekommen oder verdunstet ist, gibt es wenig, dass ihn aufhalten kann. Er wird stärker, voller, die Wassermassen nehmen zu. 
+
+<div class="poetry">
+<em>Irgendwann vielleicht wird er gleichmäßiger, als hätte er sich an das Fließen gewöhnt.</em>
+</div>
+
+Doch auch wenn sein Fließen von außen betrachtet gleichmäßig erscheint, ist es das niemals vollkommen. Nahe der Oberfläche und in seiner Mitte fließt das Wasser deutlich schneller, als am Grund und seinen Rändern, da dort die Begebenheiten der Natur in Form von Steinen, Pflanzen und dem Ufer bremsen, was sonst nur allzu schnell fließen mag.
 <p>
 <br>
 <center><em>Nachdem der Fluss seinen Weg gegangen ist, endet er - im Meer, wo alle Flüsse enden.</em></center>
