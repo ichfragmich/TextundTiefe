@@ -277,12 +277,18 @@ p {
 }
 
 .end-link::before {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
   content: "";
   display: block;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(0,0,0,0.5), transparent);
-  margin: 0 auto 2rem auto;
-  width: 60%;
+  background: linear-gradient(
+  to right,
+  transparent,
+  rgba(255,255,255,0.8),
+  transparent
+);
 }
 
 
