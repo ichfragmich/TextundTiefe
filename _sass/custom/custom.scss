@@ -276,17 +276,12 @@ p {
   opacity: 0.6;
 }
 
-.end-link::before {
+.end-link {
   text-align: center;
   margin-top: 4rem;
   padding-top: 2rem;
-  content: "";
-  background: linear-gradient(
-  to right,
-  transparent,
-  rgba(255,255,255,0.8),
-  transparent
-);
+  border-top: 0.5px solid #e5e5e5;
 }
+
 
 
