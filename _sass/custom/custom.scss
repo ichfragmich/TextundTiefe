@@ -313,3 +313,15 @@ p {
   height: 4rem;
 }
 
+.quote-text {
+  text-align: center;
+  font-style: italic;
+  margin: 0;        /* entfernt den Standardabstand oben/unten */
+  line-height: 1.2; /* engerer Zeilenabstand */
+}
+
+.quote-source {
+  text-align: center;
+  font-size: 0.9em; /* kleiner / dezent */
+  margin-top: 0.2rem; /* nur minimaler Abstand zur Zeile darüber */
+}

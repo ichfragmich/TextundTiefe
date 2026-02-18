@@ -26,8 +26,8 @@ Angst habe ich nicht davor, zu erfahren, dass ich etwas nicht weiß oder falsch 
 
 &nbsp;
 
-<div class="center-small"><em>"Der, die, das, wer, wie, was, wieso, weshalb, warum, wer nicht fragt, bleibt dumm! Tausend tolle Sachen, die gibt es überall zu seh'n, manchmal muss man fragen, um sie zu verstehen!"</em></div> 
-<div class="etymology">Titelsong der Sesamstraße</div> 
+<div class="quote-text">"Der, die, das, wer, wie, was, wieso, weshalb, warum, wer nicht fragt, bleibt dumm! Tausend tolle Sachen, die gibt es überall zu seh'n, manchmal muss man fragen, um sie zu verstehen!"</div> 
+<div class="quote-source">Titelsong der Sesamstraße</div> 
 
 &nbsp;
 
