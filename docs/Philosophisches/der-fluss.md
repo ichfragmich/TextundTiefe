@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Fluss
+title: der Fluss
 permalink: /fluss/
 parent: Philosophisches
-nav_order: 3
+nav_order: 1
 ---
 
 <div class="spacer-3"></div>
@@ -14,8 +14,7 @@ Wild und schnell ist der just geborene Fluss. Sprudelnd entfernt er sich von sei
 
 Seine Umgebung formt er, passt sich zugleich an sie an. Er folgt dem geringsten Widerstand, umfließt Hindernisse, auch wenn er dadurch niemals gerade fließen wird.
 
-<div class="center-text">Warum sollte er auch?</div>
-
+<div class="center-text"><em>Warum sollte er auch?</em></div>
 
 Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, was ihn zum Stehen bringt. Fließt er zu schnell, wird er so tief, dass ihn das Meer einnimmt, bevor er es erreicht. 
 
@@ -25,7 +24,9 @@ Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie 
 
 Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können, nach all der Form endlich frei zu sein.
 
-<div class="center-text">Man könnte meinen, es endet hier.</div>
+
+<div class="center-text"><em>Man könnte meinen, es endet hier.</em></div>
+
 
 
 Doch schon bald ist ihnen zu kalt. Sie beginnen, sich wieder miteinander zu verbinden. Werden zu schwer für die Luft. Sie lassen sich fallen, aus dem Himmel, in die Erde. 
