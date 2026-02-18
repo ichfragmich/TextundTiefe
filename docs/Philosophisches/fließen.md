@@ -32,7 +32,8 @@ Er fühlt sich leicht, ist unsichtbar, noch immer da, nur in anderer Form.</div>
 &nbsp;
 
 <div class="text-right">Seine Teile beginnen, sich voneinander zu entfernen.  
-Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können, nach all der Form endlich frei zu sein.</div>
+Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können,  
+nach all der Form endlich frei zu sein.</div>
 
 
 <div class="center-text"><em>Man könnte meinen, es endet hier.</em></div>
