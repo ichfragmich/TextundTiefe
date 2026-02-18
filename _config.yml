@@ -1,28 +1,21 @@
 title: Text und Tiefe
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Essays, Gedanken und Kurzgeschichten über Wahrnehmung, Emotion und Menschsein
 remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
 plugins:
   - jekyll-remote-theme
-
+color_scheme: dark
 
 url: "https://www.textundtiefe.de"
 baseurl: ""
 
+toc_label: "Inhalt"
+search_enabled: false
+nav_enabled: true
 heading_anchors: false
 
 just_the_docs:
   custom_css:
     - assets/css/custom.css
-
-toc_label: "Inhalt" 
-
-search_enabled: false
-
-nav_enabled: true
-
-heading_anchors: false
-
 
 nav:
   - title: Home
@@ -32,3 +25,4 @@ favicon_ico: /assets/images/favicon.ico
 
 sass:
   style: compressed
+
