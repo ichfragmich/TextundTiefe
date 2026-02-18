@@ -35,6 +35,6 @@ Philosophie, die "Mutter der Wissenschaften", beschreibt genau das: ein nie ende
 
 Wörtlich bedeutet sie "Liebe zu Weisheit". Weisheit ist die Fähigkeit, durch Erfahrungen zu verstehen und Liebe beschreibt Zuneigung, Verbundenheit und Wertschätzung. 
 
-Ich mag es, mich mit dem, was ich erlebe, zu verbinden und meine Erkenntnisse wertzuschätzen, etwa in Form von Worten, von denen einige hier zu finden sind.
+<div class="center-text">Ich mag es, mich mit dem, was ich erlebe, zu verbinden und meine Erkenntnisse wertzuschätzen, etwa in Form von Worten, von denen einige hier zu finden sind.</div>
 
-<div class="spacer-3"></div>
+<div class="spacer-1"></div>
