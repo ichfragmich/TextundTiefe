@@ -24,8 +24,8 @@ Vor allem die Antworten sind es, denen Menschen ausweichen wollen, indem sie so 
 
 Angst habe ich nicht davor, zu erfahren, dass ich etwas nicht weiß oder falsch verstanden habe. Das ist mir oft passiert und immer hatte es zur Folge, dass meine Neugierde wuchs. 
 
->"Der, die, das, wer, wie, was, wieso, weshalb, warum, wer nicht fragt, bleibt dumm! Tausend tolle Sachen, die gibt es überall zu seh'n, manchmal muss man fragen, um sie zu verstehen!" 
->Titelsong der Sesamstraße
+<div class="center-small"><em>"Der, die, das, wer, wie, was, wieso, weshalb, warum, wer nicht fragt, bleibt dumm! Tausend tolle Sachen, die gibt es überall zu seh'n, manchmal muss man fragen, um sie zu verstehen!"</em></div> 
+<div class="center-small"><em>Titelsong der Sesamstraße</em></div> 
 
 Philosophie, die "Mutter der Wissenschaften", beschreibt genau das: ein nie enden wollender Strom an Fragen, um zu ergründen, zu deuten und zu verstehen. 
 
