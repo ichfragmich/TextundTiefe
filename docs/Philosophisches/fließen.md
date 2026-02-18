@@ -3,10 +3,10 @@ layout: default
 title: fließen
 permalink: /fließen/
 parent: Philosophisches
-nav_order: 1
 ---
 
 <div class="spacer-3"></div>
+
 # fließen
 
 <div class="spacer-2"></div>
@@ -23,10 +23,10 @@ Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, wa
 Irgendwann durchfließt er seine letzte Kurve.  
 Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.
 
-<div class="right-line">Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.  
+<div class="text-right">Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.  
 Er fühlt sich leicht, ist unsichtbar, noch immer da, nur in anderer Form.</div>
 
-<div class="right-line">Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können, nach all der Form endlich frei zu sein.</div>
+<div class="text-right">Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können, nach all der Form endlich frei zu sein.</div>
 
 
 <div class="center-text"><em>Man könnte meinen, es endet hier.</em></div>
