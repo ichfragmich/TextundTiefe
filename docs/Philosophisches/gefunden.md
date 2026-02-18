@@ -1,13 +1,13 @@
 ---
 layout: default
-title: gefunden
-permalink: /gefunden/
+title: gefunden werden
+permalink: /gefunden-werden/
 parent: Philosophisches
 ---
 
 <div class="spacer-3"></div>
 
-# fließen
+# gefunden werden
 
 <div class="spacer-2"></div>
 
