@@ -22,7 +22,6 @@ Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, wa
 <div class="center-line">
 Irgendwann durchfließt er seine letzte Kurve.<br>
 Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.<br>
-Dritte Zeile
 </div>
 
 
