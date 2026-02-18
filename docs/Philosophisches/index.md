@@ -16,7 +16,7 @@ has_toc: false
 
 Als ich ein Kind war, fragte ich meine Oma, was die Bauarbeiter dort auf der Baustelle tun. Sie meinte, ich solle sie das am besten selber fragen. Das tat ich - und schon damals genügte mir die Antwort "Wir arbeiten." nicht.
 
-<div class="center-text">Oberfläche war noch nie ein Ort, an dem ich mich wohl gefühlt habe. 
+<div class="center-text">Oberfläche war noch nie ein Ort, an dem ich mich wohl gefühlt habe.</div> 
 
 Herausforderungen aktiv anzunehmen, anstatt ihnen auszuweichen, bedeutet, sich zu stellen. Bis heute stelle ich mir nur allzu gern Fragen - ständig, über alles - um so viel wie möglich zu erfahren. 
 
