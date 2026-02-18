@@ -6,7 +6,8 @@ nav_order: 3
 ---
 
 # der Fluss
-
+&nbsp;
+&nbsp;
 Wild und schnell ist der just geborene Fluss. Sprudelnd entfernt er sich von seiner Quelle, um zu laufen, wie im Rausch, immer Richtung Meer.
 
 Seine Umgebung formt er, passt sich zugleich an sie an. Er folgt dem geringsten Widerstand, umfließt Hindernisse, auch wenn er dadurch niemals gerade fließen wird.
