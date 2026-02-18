@@ -23,10 +23,12 @@ Hinter seiner letzten Kurve wartet das Meer mit unendlich vielen Mündern - eine
 
 
 
-<div class="text-right-wide">Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel.<br>
-Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.<br>
-Er fühlt sich leicht, ist unsichtbar, noch immer da,<br> 
-nur in anderer Form.</div>
+<div class="text-right-wide">
+  <p>Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel.</p>
+  <p>Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.</p>
+  <p>Er fühlt sich leicht, ist unsichtbar, noch immer da,</p>
+  <p>nur in anderer Form.</p>
+</div>
 
 
 
