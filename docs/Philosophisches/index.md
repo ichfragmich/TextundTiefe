@@ -4,7 +4,7 @@ title: Philosophisches
 permalink: /Philosophisches/
 nav_order: 3
 has_children: true
-has_toc: false
+has_toc: true
 ---
 
 <div class="spacer-3"></div>
@@ -35,6 +35,6 @@ Philosophie, die "Mutter der Wissenschaften", beschreibt genau das: ein nie ende
 
 Wörtlich bedeutet sie "Liebe zu Weisheit". Weisheit ist die Fähigkeit, durch Erfahrungen zu verstehen und Liebe beschreibt Zuneigung, Verbundenheit und Wertschätzung. 
 
-Ich mag es, mich mit dem, was ich erlebe, zu verbinden und meine Erkenntnisse wertzuschätzen, etwa in Form von Worten. 
+Ich mag es, mich mit dem, was ich erlebe, zu verbinden und meine Erkenntnisse wertzuschätzen, etwa in Form von Worten, von denen einige hier zu finden sind.
 
-Einige von ihnen findest du hier, im Abschnitt "Philosophisches". 
+<div class="spacer-3"></div>
