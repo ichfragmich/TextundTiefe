@@ -32,7 +32,7 @@ Angst habe ich nicht davor, zu erfahren, dass ich etwas nicht weiß oder falsch 
 &nbsp;
 
 Philosophie, die "Mutter der Wissenschaften", beschreibt genau das: ein nie enden wollender Strom an Fragen, um zu ergründen, zu deuten und zu verstehen. 
-Wörtlich bedeutet sie "Liebe zu Weisheit". Weisheit ist die Fähigkeit, durch Erfahrungen zu verstehen und Liebe beschreibt Zuneigung, Verbundenheit und Wertschätzung. 
+Wörtlich bedeutet sie "Liebe zu Weisheit". Weisheit ist die Fähigkeit, durch Erfahrungen zu verstehen, Liebe beschreibt Zuneigung, Verbundenheit und Wertschätzung. 
 
 <div class="center-text">Ich mag es, mich mit dem, was ich erlebe, zu verbinden und meine Erkenntnisse wertzuschätzen, etwa in Form von Worten, von denen einige hier zu finden sind.</div>
 
