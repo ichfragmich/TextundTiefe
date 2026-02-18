@@ -13,6 +13,9 @@ has_children: false
 &nbsp;
 
 <div class="center-small">Hier verweilen meine Texte über das das kleine und große Ganze.</div>
+
+<div class="spacer-2"></div>
+
 <div class="center-small">Setz dich gern und bleib, solange du magst.</div>
 
 
