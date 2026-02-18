@@ -3,9 +3,10 @@ layout: default
 title: im Dunkeln
 parent: Philosophisches
 nav_order: 1
+published: false
 ---
 
-<br><br>
+
 # Sich auch im Dunkeln gut finden
 
 <br><br>

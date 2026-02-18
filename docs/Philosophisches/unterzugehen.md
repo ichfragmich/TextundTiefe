@@ -3,9 +3,8 @@ layout: default
 title: unterzugehen
 parent: Philosophisches
 nav_order: 2
+published: false
 ---
-
-<br><br>
 
 # unterzugehen
 
