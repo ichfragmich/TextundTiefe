@@ -28,4 +28,5 @@ Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, groß
 
 Doch schon bald ist ihnen zu kalt. Sie beginnen, sich wieder miteinander zu verbinden. Werden zu schwer für die Luft. Sie lassen sich fallen, aus dem Himmel, in die Erde. 
 
-<div class="center-text">Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch, immer Richtung Meer.</div>
+<div class="center-text">Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch,</div>
+<div class="center-text">immer Richtung Meer.</div>
