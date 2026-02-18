@@ -12,6 +12,7 @@ just_the_docs:
   custom_css:
     - assets/css/custom.css
 
+toc_label: "Inhalt" 
 
 search_enabled: false
 
