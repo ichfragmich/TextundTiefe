@@ -274,6 +274,13 @@ p {
   line-height: 1.2; /* kleinerer Zeilenabstand */
 }
 
+.center-line {
+  text-align: center; /* zentriert den Text */
+  margin: 0;           /* kein Abstand oben/unten, mit br mehrere zeilen untereinander */
+  padding: 0;          /* kein Padding */
+  line-height: 1.2;    /* enger Zeilenabstand, passt sich direkt an */
+}
+
 
 .poetry {
   text-align: center;

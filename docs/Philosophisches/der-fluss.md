@@ -19,8 +19,12 @@ Seine Umgebung formt er, passt sich zugleich an sie an. Er folgt dem geringsten 
 
 Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, was ihn zum Stehen bringt. Fließt er zu schnell, wird er so tief, dass ihn das Meer einnimmt, bevor er es erreicht. 
 
-<div class="center-small">Irgendwann fließt er seine letzte Kurve.</div>
-<div class="center-small">Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.</div>
+<div class="center-line">
+Irgendwann durchfließt er seine letzte Kurve.<br>
+Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.<br>
+Dritte Zeile
+</div>
+
 
 Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten. Er fühlt sich leicht, ist unsichtbar, noch immer da, nur in anderer Form.
 
