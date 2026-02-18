@@ -9,7 +9,7 @@ nav_order: 1
 <div class="spacer-3"></div>
 # der Fluss
 
-<div class="spacer-3"></div>
+<div class="spacer-2"></div>
 
 Wild und schnell ist der just geborene Fluss. Sprudelnd entfernt er sich von seiner Quelle, um zu laufen, wie im Rausch, immer Richtung Meer.
 

@@ -12,7 +12,7 @@ has_toc: true
 # Philosophisches
 <div class="etymology">gr. philosophia "Liebe zur Weisheit"</div>
 
-<div class="spacer-3"></div>
+<div class="spacer-2"></div>
 
 Als ich ein Kind war, fragte ich meine Oma, was die Bauarbeiter dort auf der Baustelle tun. Sie meinte, ich solle sie das am besten selber fragen. Das tat ich - und schon damals genügte mir die Antwort "Wir arbeiten." nicht.
 

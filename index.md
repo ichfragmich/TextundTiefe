@@ -13,7 +13,7 @@ meta_description: "Ein Blog gefüllt mit Worten zu Philosophie, Sprache, Mensche
 
 <div class="spacer-2"></div>
 
-<div class="center-small">Hier verweilen meine Texte über das das kleine und große Ganze.</div>
+<div class="center-small">Hier verweilen meine Worte über das das kleine und große Ganze.</div>
 
 
 <div class="center-small">Setz dich gern und bleib, solange du magst.</div>
