@@ -12,7 +12,8 @@ Wild und schnell ist der just geborene Fluss. Sprudelnd entfernt er sich von sei
 
 Seine Umgebung formt er, passt sich zugleich an sie an. Er folgt dem geringsten Widerstand, umfließt Hindernisse, auch wenn er dadurch niemals gerade fließen wird.
 
-Warum sollte er auch?
+<div class="center-text">Warum sollte er auch?</div>
+
 
 Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, was ihn zum Stehen bringt. Fließt er zu schnell, wird er so tief, dass ihn das Meer einnimmt, bevor er es erreicht. 
 
@@ -22,8 +23,9 @@ Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie 
 
 Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können, nach all der Form endlich frei zu sein.
 
-Man könnte meinen, es endet hier.
+<div class="center-text">Man könnte meinen, es endet hier.</div>
+
 
 Doch schon bald ist ihnen zu kalt. Sie beginnen, sich wieder miteinander zu verbinden. Werden zu schwer für die Luft. Sie lassen sich fallen, aus dem Himmel, in die Erde. 
 
-Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch, immer Richtung Meer.
+<div class="center-text">Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch, immer Richtung Meer.</div>
