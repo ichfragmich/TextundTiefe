@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fluss
+permalink: /fluss/
 parent: Philosophisches
 nav_order: 3
 ---
