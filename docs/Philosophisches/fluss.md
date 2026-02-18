@@ -17,7 +17,7 @@ Seine Umgebung formt er, passt sich zugleich an sie an. Er folgt dem geringsten 
 
 Wichtig ist, sein Maß zu halten. Fließt er zu langsam, sammelt sich in ihm, was ihn zum Stehen bringt. Fließt er zu schnell, wird er so tief, dass ihn das Meer einnimmt, bevor er es erreicht. 
 
-Irgendwann fließt er seine letzte Kurve. Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.
+<div class="center-text">Irgendwann fließt er seine letzte Kurve. Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebührt ihm.</div>
 
 Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel. Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten. Er fühlt sich leicht, ist unsichtbar, noch immer da, nur in anderer Form.
 
@@ -28,5 +28,4 @@ Seine Teile beginnen, sich voneinander zu entfernen. Sie brauchen Distanz, groß
 
 Doch schon bald ist ihnen zu kalt. Sie beginnen, sich wieder miteinander zu verbinden. Werden zu schwer für die Luft. Sie lassen sich fallen, aus dem Himmel, in die Erde. 
 
-<div class="center-text">Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch,</div>
-<div class="center-text">immer Richtung Meer.</div>
+<div class="center-text">Bis aus ihnen ein Fluss geboren wird, der sich sprudelnd von seiner Quelle entfernt, um zu laufen, wie im Rausch, immer Richtung Meer.</div>
