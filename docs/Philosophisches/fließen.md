@@ -25,14 +25,15 @@ Hinter ihr wartet das Meer mit unendlich vielen Mündern - einer von ihnen gebü
 
 
 
-<div class="text-right-wide">Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel.  
-Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.  
-Er fühlt sich leicht, ist unsichtbar, noch immer da, nur in anderer Form.</div>
+<div class="text-right-wide">Einst zog ihn die Schwerkraft zum Meer, nun zieht die Sonne ihn gen Himmel.<br>
+Sie kann nicht anders, als ihn zu wärmen, er kann nicht anders, als zu verdunsten.<br>
+Er fühlt sich leicht, ist unsichtbar, noch immer da,<br> 
+nur in anderer Form.</div>
 
 
 
-<div class="text-right-wide">Seine Teile beginnen, sich voneinander zu entfernen.  
-Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können,  
+<div class="text-right-wide">Seine Teile beginnen, sich voneinander zu entfernen.<br> 
+Sie brauchen Distanz, große Distanz, als würden sie es kaum erwarten können,<br>  
 nach all der Form endlich frei zu sein.</div>
 
 
