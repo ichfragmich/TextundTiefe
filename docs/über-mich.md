@@ -3,9 +3,11 @@ layout: default
 title: über mich
 ---
 
-<br>
+<div class="spacer-3"></div>
 
 # Ich bestehe aus Worten
+
+<div class="spacer-3"></div>
 
 Worte waren schon immer ein Teil von mir, sie wohnen in meinem Herzen, auf meiner Zunge, in jeder Zelle meines Körpers
 
