@@ -332,3 +332,10 @@ p {
   font-size: 0.9em; /* kleiner / dezent */
   margin-top: 0.2rem; /* nur minimaler Abstand zur Zeile darüber */
 }
+
+.right-line {
+  text-align: right;  /* alles rechts ausrichten */
+  margin: 0;          /* kein extra Abstand außen */
+  padding: 0;         /* kein Abstand innen */
+  line-height: 1.8;   /* Zeilenabstand wie normaler Text */
+}
