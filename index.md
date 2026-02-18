@@ -3,6 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 has_children: false
+meta_description: "Ein Blog gefüllt mit Worten zu Philosophie, Sprache, Menschen, Psychologie und so vielem mehr."
 ---
 
 <div class="spacer-3"></div>
