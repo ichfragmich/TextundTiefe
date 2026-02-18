@@ -1,6 +1,7 @@
 ---
 layout: default
 title: über mich
+permalink: /über-mich/
 ---
 
 <div class="spacer-3"></div>
