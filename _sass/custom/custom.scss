@@ -262,6 +262,10 @@ p {
   text-decoration-line: none;
 }
 
+/* Textausrichtung und Formattierung */
+
+/* mittig */
+
 .center-text {
   text-align: center;
   margin: 2rem 0;
@@ -308,17 +312,7 @@ p {
   margin-bottom: 1rem;
 }
 
-.spacer-1 {
-  height: 2rem;
-}
 
-.spacer-2 {
-  height: 3rem;
-}
-
-.spacer-3 {
-  height: 4rem;
-}
 
 .quote-text {
   text-align: center;
@@ -333,9 +327,33 @@ p {
   margin-top: 0.2rem; /* nur minimaler Abstand zur Zeile darüber */
 }
 
+/* rechtszentriert */
+
 .text-right {
   text-align: right;  /* alles rechts ausrichten */
   margin: 0;          /* kein extra Abstand außen */
   padding: 0;         /* kein Abstand innen */
   line-height: 1.8;   /* Zeilenabstand wie normaler Text */
+}
+
+.text-right-wide {    /*genauso viel Abstand wie mittiger Text
+  text-align: right;
+  margin: 2rem 0;
+  line-height: 1.8;
+}
+
+
+
+/* Abstände */
+
+.spacer-1 {
+  height: 2rem;
+}
+
+.spacer-2 {
+  height: 3rem;
+}
+
+.spacer-3 {
+  height: 4rem;
 }
