@@ -14,49 +14,51 @@ parent: Philosophisches
 
 
 
-“Hallo?”, rief ich in die Dunkelheit, wobei ich weder ausmachen konnte, woher meine Stimme kam, noch, bis wohin sie reichte. “Hallo?”, rief ich noch einmal, verzweifelter, etwas leiser. Keine Antwort.
+“Hallo?”, rief ich in die Dunkelheit, wobei ich weder ausmachen konnte, woher meine Stimme kam, noch, bis wohin sie reichte.  
+“Hallo?”, rief ich noch einmal, verzweifelter, etwas leiser.
+
+Noch einen Versuch wagte ich nicht. 
+
+Es war so still um mich herum, dass ich nicht sicher war, ob sich meine Stimme nicht schon längst in der Dunkelheit verloren hatte. 
+
+Ich versuchte, voran zu kommen.  
+
+Doch ich konnte nicht sehen, konnte nicht erkennen, ob ich mich überhaupt bewegte. 
+
+Richtungen verschwammen, bis ich still stand und mich gleichermaßen im Kreis drehte, immer und immer wieder. 
 
 
-
-Noch einen Versuch wagte ich nicht. Es war so still um mich herum, dass ich mir nicht mehr sicher war, ob ich wirklich gerufen, oder sich meine Stimme längst in der Dunkelheit verloren hatte. 
-
-
-
-Ich versuchte, mich zu bewegen. Doch ohne etwas sehen zu können, ist Bewegung nur schwer auszumachen. 
-
-
-
-Dieses Mal, das wusste ich, war es so weit: Ich war endgültig verloren. Schwere Gedanken färbten mich ein, flossen in Form von Tränen aus mir heraus und nahmen, was noch von mir übrig war. 
+Dieses Mal, das wusste ich, war ich endgültig verloren. Schwere Gedanken färbten mich ein, flossen in Form von Tränen aus mir heraus und nahmen, was noch von mir übrig war. 
 
 
 
 Selbst Verzweiflung, Trauer und Wut verließen mich.  
 
-Ich wurde leer, ich fühlte nicht mehr. 
+Ich wurde leer, fühlte nicht mehr. 
 
 
 
 Gerade glaube ich, zu verschwinden, als ich etwas hörte.  
 
-Jemand rief nach mir.
 
 
-
-“Hier steckst du also”, hörte ich die Stimme sagen. 
-
+<div class="text-right">“Hier steckst du also”, hörte ich die Stimme sagen.</div>
 
 
-“Du hast mich gesucht?”, fragte ich ungläubig. 
+<div class="text-right">“Du hast nach mir gesucht?”, fragte ich aufgelöst.</div>
 
 
+<div class="text-right">“Natürlich.” Die Stimme nahm mich sanft in den Arm.</div>
 
-“Natürlich.” Die Stimme nahm mich sanft in den Arm.
 
-&nbsp; 
-
-“Aber... wie?”
-
+<div class="text-right">“Aber... wie?”</div>
 
 
 “Weil ich dich immer gut finde - selbst dann, wenn du es gerade nicht kannst."
+
+
+
+
+
+
 
