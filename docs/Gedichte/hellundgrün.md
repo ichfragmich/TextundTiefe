@@ -7,7 +7,7 @@ parent: Gedichte
 
 <div class="spacer-3"></div>
 
-# gefunden werden
+# hell und grün
 
 <div class="spacer-2"></div>
 
@@ -20,12 +20,12 @@ andere würd ich gern leugnen
 manche meiner träume schmecken nach wärme  
 manche nach angstvollem leid  
 manche meiner träume sind voller leere  
-andere lang und breit  
+andre sind tief und weit  
 
 in manchen meiner träume fühl ich mich frei  
 in andern erdrückt und gebunden  
 manche meiner träume sind niemals vorbei  
-andere längst verschwunden  
+andere lang schon verschwunden  
 
 manche meiner träume sind trüb und taub  
 manche lebendig und klar  
