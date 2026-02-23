@@ -26,7 +26,7 @@ warum Systeme bestehen und sich wie ich nur langsam neu entfalten.
 
 Ich würde so gerne wenig erwarten, um mich selbst nicht mehr zu enttäuschen,  
 mit dunklen Gedanken, offensichtlichen Enden, mit unheilvollen Leuten.  
-Ich würde so gerne unverwüstbar sein, unerschrocken bei allem im Leben,  
+Ich würde so gerne unverwüstbar sein, unerschrocken und sicher im Leben,  
 mit richtigen Worten, feinen Gedanken, im Einklang mit allem und jedem.  
 
 

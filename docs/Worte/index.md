@@ -18,7 +18,7 @@ nav_order: 4
 
 
 <div class="text-center">
-Ich liebe alle Worte, doch manche Worte sind so schön, dass mein Herz lacht, wenn ich über sie stolpere.
+Ich liebe alle Worte, doch manche sind so schön, dass mein Herz lacht, wenn ich über sie stolpere.
 </div>
 
 
