@@ -1,8 +1,6 @@
 title: Text und Tiefe
 description: Essays, Gedanken und Kurzgeschichten über Wahrnehmung, Emotion und Menschsein
-remote_theme: just-the-docs/just-the-docs
-plugins:
-  - jekyll-remote-theme
+theme: just-the-docs
 color_scheme: dark
 
 url: "https://www.textundtiefe.de"

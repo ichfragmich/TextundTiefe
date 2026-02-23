@@ -161,29 +161,17 @@ body.sidebar-closed .sidebar {
   }
 }
 
-// Make main content wider
+
 .main-content {
-  max-width: 900px;
-}
-
-// Adjust sidebar width
-.side-bar {
-  width: 300px;
-}
-
-@media (min-width: 1024px) {
-  .main-content {
-    margin-left: 250px;
-  }
-}
-
-// Make text bigger and centered
-.main-content {
-  max-width: 900px;
+  max-width: 70ch;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   font-size: 16px;
   line-height: 1.6;
+}
+
+.side-bar {
+  width: 300px;
 }
 
 // Heading sizes
@@ -335,16 +323,22 @@ p {
   line-height: 1.8;   /* Zeilenabstand wie normaler Text */
 }
 
-.text-right-wide {    /*genauso viel Abstand wie mittiger Text
+.text-right-wide {    /*genauso viel Abstand wie mittiger Text */
   text-align: right;
   margin: 2rem 0;
   line-height: 1.8;
 }
 
-
-.text-right-wide p {
+.text-right p {
   margin: 0;
-  line-height: 1.8;
+}
+
+
+/* Text weiter in Mitte */
+
+.text-mitte {
+  max-width: 600px;      /* bestimmt die Textbreite */
+  margin: 0 auto;        /* schiebt den Block in die Mitte */
 }
 
 
@@ -361,3 +355,8 @@ p {
 .spacer-3 {
   height: 4rem;
 }
+
+.spacer-0 {
+  height: 1rem;
+}
+
