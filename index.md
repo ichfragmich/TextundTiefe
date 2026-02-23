@@ -26,4 +26,3 @@ meta_description: "Ein Blog gefüllt mit Worten zu Philosophie, Sprache, Mensche
 <div class="center-text">ᆔ</div>
 
 
-Möchtest du über neue Inhalte informiert werden, trage dich hier in meinen Newsletter ein. https://f8f5e642.sibforms.com/serve/MUIFAJ5K_Ez1PYuaTf9kJnQTyJqxZH8stmd0TxFWcOGTrRujfAZtJ3j3Tp1KJOuL_5Ilm0klD52u73H-fXM6lGXEwpombLAtiAubKiV-r13pVpLI4V8GHKzFqP18fcNgMQe7N-e86MRd8ZD4-S5Ppw5KQJaYMb5aYLfxz41yQm2YPvjg2VsIf1TNSK7_tA8a6KAUhqCYdEwgDuX-9w==
