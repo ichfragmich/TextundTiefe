@@ -5,34 +5,42 @@ permalink: /hell-und-gruen/
 parent: Gedichte
 ---
 
-<div class="spacer-3"></div>
+<div class="spacer-1"></div>
 
-# hell und grün
-
-<div class="spacer-2"></div>
-
-
-manche meiner träume sind hell und grün  
-manche vor dunkelheit leuchtend  
-manche meiner träume sind wunderschön  
+<div class="main-content blog">
+<div class="blog-container">
+  <h2>hell <br> und grün</h2>
+  <p class="strophe">
+manche meiner träume sind hell und grün<br>
+manche vor dunkelheit leuchtend<br>  
+manche meiner träume sind wunderschön<br>  
 andere würd ich gern leugnen  
+</p>
 
-manche meiner träume schmecken nach wärme  
-manche nach angstvollem leid  
-manche meiner träume sind voller leere  
-andre sind tief und weit  
+  <p class="strophe">
+manche meiner träume schmecken nach wärme<br>  
+manche nach angstvollem leid<br>  
+manche meiner träume sind voller leere<br>  
+andere tief und weit
+</p>
 
-in manchen meiner träume fühl ich mich frei  
-in andern erdrückt und gebunden  
-manche meiner träume sind niemals vorbei  
-andere lang schon verschwunden  
+  <p class="strophe">
+in manchen meiner träume fühl ich mich frei<br>  
+in andern erdrückt und gebunden<br>  
+manche meiner träume sind niemals vorbei<br>  
+in andern bin ich längst verschwunden
+</p>
 
-manche meiner träume sind trüb und taub  
-manche lebendig und klar  
-manche meiner träume sind unendlich laut  
-andere waren nie da  
+  <p class="strophe">
+manche meiner träume sind trüb und taub<br>  
+manche lebendig und klar<br>  
+manche meiner träume sind unendlich laut<br>  
+andere waren kaum da
+</p>
 
-manche meiner träume machen mich aus  
-manche will ich nicht sein  
-manche meiner träume ahnen voraus  
+<p class="strophe">manche meiner träume machen mich aus<br>  
+manche will ich nicht sein<br>  
+manche meiner träume ahnen voraus<br>  
 im letzten bin ich daheim
+</p>
+</div>

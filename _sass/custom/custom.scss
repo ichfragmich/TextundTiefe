@@ -7,18 +7,32 @@ $highlight-color: #9b8b6f;
 $bg-dark: #1a1a1a;
 $bg-darker: #0f0f0f;
 $font-weight-light: 100;
-$font-weight-normal: 200;
+$font-weight-normal: 100;
 $font-size-base: 17px;
 
 // =============================
-// Body & Links
+// Generelles
 // =============================
+.main-header {
+  border-bottom: none !important;
+}
+
+hr {
+ display: none;
+}
+
 body {
   font-family: $main-font;
   color: #adaaaa;
-  font-weight: 250;
-  font-size: 17xp;
+  font-weight: 200;
+  font-size: 17px;
+  /* overflow-x: hidden; */ /* horizontales Scrollen verhindern */
 }
+
+
+// =============================
+// Links
+// =============================
 
 a {
   color: $highlight-color;
@@ -26,9 +40,8 @@ a {
 }
 
 a:not([class]) {
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: $highlight-color;
-  text-underline-offset: 2px;
 }
 
 a:not([class]):hover {
@@ -36,113 +49,70 @@ a:not([class]):hover {
 }
 
 // =============================
-// Site Title / Header
+// Site Title
 // =============================
 .site-title {
-  font-family: $main-font;
-  color: #adaaaa;
-  font-size: 1.5rem !important;
-  font-weight: $font-weight-light;
-  line-height: 1;
-  display: flex;
-  align-items: center;      // vertikal zentrieren
+  display: flex;              // Flexbox für horizontale Ausrichtung
+  align-items: center;        // vertikal zentrieren
   justify-content: flex-start; // links
-  text-align: left;
+  opacity: 0.2;
+  letter-spacing: 0.5rem;
+  font-size: 0.9rem;
+  position: relative;
+  width: auto;                // flexibel, damit Sidebar nicht gequetscht wird
 
   a {
-    font-weight: inherit;   // verhindert Theme-Override
+    font-weight: inherit;      // verhindert Theme-Override
   }
 }
 
+// Pseudo-Elemente des Headers ausblenden
 .site-header::before,
 .site-header::after {
   display: none;
 }
 
 // =============================
-// Content Überschriften
+// Icons & Navigation
 // =============================
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $font-weight-light;
-  text-align: center;
-  line-height: 1;
-  color: $highlight-color;
+.nav-list .nav-list-item > .nav-list-link.active {
+  background-color: $bg-dark;
+  opacity: 0.9;
 }
 
-.post-content h1 {
-  margin-top: 2.1em;
-  margin-bottom: 1em;
-  text-decoration-line: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.35em;
-  text-decoration-color: currentColor;
+.nav-list .nav-list-item > .nav-list-link {
+  opacity: 0.6;
 }
 
-.post-content h2 {
-  margin-top: 2em;
-  margin-bottom: 0.8em;
+.icon {
+  color: #777474;
+  opacity: 0.3;
 }
 
-.post-content h3 {
-  margin-top: 1.6em;
-  margin-bottom: 0.6em;
-}
-
-hr {
+/* Pfeile in der Sidebar entfernen */
+.nav-list-expander,
+.nav-list .nav-list-item .nav-list-expander:hover,
+.nav-list .nav-list-item .nav-list-expander:active {
   display: none;
 }
 
-// =============================
-// Navigation Menu
-// =============================
+/* Sidebar-Links sauber gestalten */
+.nav-list .nav-list-item > .nav-list-link,
+.nav-list .nav-list-item > .nav-list-link:hover,
 .nav-list .nav-list-item > .nav-list-link.active {
-  color: $highlight-color;
-  background-color: $bg-dark;
-}
-
-.nav-list .nav-list-item > .nav-list-link:hover {
-  background-color: $bg-darker;
-  color: $highlight-color;
-}
-
-// =============================
-// Hamburger Button
-// =============================
-.sidebar-toggle,
-#sidebar-toggle {
-  font-size: 1.5rem;
-  background: none;
+  color: #767676;
+  background: transparent;
+  box-shadow: none;
   border: none;
-  cursor: pointer;
-  color: $highlight-color;
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  z-index: 1000;
-
-  &:hover {
-    background-color: $bg-dark;
-  }
+  font-weight: 200;
+  text-decoration: none;
 }
 
-// =============================
-// Sidebar
-// =============================
-.sidebar {
-  transition: transform 0.3s ease;
-}
-
-// Wenn die Sidebar eingeklappt ist
-body.sidebar-closed .sidebar {
-  transform: translateX(-250px); // nach links schieben
-}
-
-// Für mobile standardmäßig verstecken
-@media (max-width: 768px) {
-  body:not(.sidebar-open) .sidebar {
-    transform: translateX(-250px);
-  }
-
+/* Pseudo-Elemente entfernen */
+.nav-list .nav-list-item > .nav-list-link::before,
+.nav-list .nav-list-item > .nav-list-link::after {
+  content: none;
+  display: none;
 }
 
 // =============================
@@ -154,125 +124,644 @@ body.sidebar-closed .sidebar {
   align-items: center;
 }
 
-// === NUR DESKTOP ===
-@media (min-width: 66.5rem) {
-  .main-content {
-    max-width: 1000px; // Standard ist ~800–900
-  }
-}
-
-
+// =============================
+// Main Content
+// =============================
 .main-content {
   max-width: 70ch;
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
   line-height: 1.6;
+  min-width: 0;
 }
 
+.page-content {
+  min-width: 0;
+}
+
+.main-content p {
+  font-size: 1rem;
+}
+
+// =============================
+// Sidebar 
+// =============================
+
+/* ===== Titel kürzen ===== */
+
+.nav-list-item a {
+  display: block;         /* oder inline-block, je nach Layout */
+  white-space: nowrap;    /* verhindert Zeilenumbruch */
+  overflow: hidden;       /* versteckt den überlaufenden Text */
+  text-overflow: ellipsis; /* zeigt "..." am Ende */
+  max-width: 200px;       /* maximale Breite des Links, anpassen */
+}
+
+
+/* ===== Sidebar Styling ===== */
 .side-bar {
-  width: 300px;
+  border-right-width: 1px; 
+  border-color: #27262b;
+  transition: transform 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  transform: translateX(-250px); /* Eingeklappt standardmäßig */
 }
 
-// Heading sizes
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
-
-h1 {
-  margin-top: 4rem;
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 0.4em;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-bottom: 0.3em;
-}
-
-p {
-  font-size: 16px;
-  margin-bottom: 1em;
-}
-
-/* Pfeile in der Sidebar: keine Hover-Effekte */
-.nav-list .nav-list-item .nav-list-expander,
-.nav-list .nav-list-item .nav-list-expander:hover,
-.nav-list .nav-list-item .nav-list-expander:active {
-  color: #767676 !important;      // Pfeilfarbe
-  background: transparent !important; // kein Hintergrund beim Hover
-  box-shadow: none !important;    // evtl. Schatten entfernen
+/* Wenn geöffnet */
+.side-bar.open {
+  transform: translateX(0);
 }
 
 
-/* Sidebar: keine Hover- oder Active-Effekte */
-.nav-list .nav-list-item > .nav-list-link,
-.nav-list .nav-list-item > .nav-list-link:hover,
-.nav-list .nav-list-item > .nav-list-link.active {
-  color: #767676 !important;         // Textfarbe
-  background: transparent !important; // kein Hintergrund
-  box-shadow: none !important;       // alle Schatten killen
-  border: none !important;           // keine Rahmen
-  font-weight: 200 !important;
-  text-decoration: none !important;
+// =============================
+// Responsive Sidebar
+// =============================
+
+// Desktop (breit)
+@media (min-width: 900px) {
+  .side-bar {
+    display: block;
+    width: 200px;
+    transform: translateX(0);
+  }
+  }
+
+
+// Mittlere Fensterbreite (Sidebar sichtbar, breiter lesbar)
+@media (min-width: 600px) and (max-width: 899px) {
+  .side-bar {
+    display: none;
+    width: 140px; 
+    transform: translateX(0);
+  }
+
+
+// Mobile / kleine Fenster
+@media (max-width: 599px) {
+  .side-bar {
+    display: none;  
+    transform: translateX(-250px);
+  }
+  }
+
+ .main-content.blog {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-/* Killen von Pseudo-Elementen, die Balken oder Effekte erzeugen */
-.nav-list .nav-list-item > .nav-list-link::before,
-.nav-list .nav-list-item > .nav-list-link::after {
-  content: none !important;
-  display: none !important;
+
+
+// =============================
+// ABSTÄNDE
+// =============================
+
+.spacer-00 {
+  height: 0.5rem;
+}
+
+.spacer-0 {
+  height: 1rem;
+}
+
+.spacer-1 {
+  height: 2rem;
+}
+
+.spacer-2 {
+  height: 3rem;
+}
+
+.spacer-3 {
+  height: 4rem;
+}
+
+.spacer-4 {
+  height: 5rem;
+}
+
+.spacer-5 {
+  height: 6rem;
+}
+
+.spacer-6 {
+  height: 7rem;
+}
+
+.spacer-7 {
+  height: 8rem;
+}
+
+.spacer-8 {
+  height: 9rem;
 }
 
 
-/* Statt nur .post-content h1,h2,h3… */
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
+
+
+// =============================
+// HOME
+// =============================
+
+.home-links {
+  font-weight: 200;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.2rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.home-mitte {
+  font-weight: 200;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.3rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.home-herz {
   font-weight: 100;
-  text-align: center;
-  line-height: 1;
-  color: #adaaaa;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.3rem;
+  opacity: 0.5;
+  line-height: 1.6;
 }
 
-.main-content h1 {
-  margin-top: 2.1em;
-  margin-bottom: 0.5em;
-  font-family: Sigmund Freud Typeface PRO;
-
-  text-decoration-line: none;
+.home-aus {
+  font-weight: 200;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+  opacity: 0.8;
 }
 
-/* Textausrichtung und Formattierung */
+.home {
+  text-align: left;
+  font-weight: 100;
+  position: relative;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+  opacity: 0.9;
+}
 
-/* mittig */
+.home-info {
+  font-weight: 100;
+  text-align: right;
+  position: relative;
+  letter-spacing: 0.1rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
 
-.center-text {
-  text-align: center;
-  margin: 2rem 0;
+
+// =============================
+// Gedichte
+// =============================
+
+/* ===== MAIN CONTENT ANPASSUNG ===== */
+.main-content.blog {
+  max-width: 90ch;      /* mehr Platz für Gedichte */
+  width: 100%;           /* füllt Container */
+  margin: 0 auto;        /* horizontal zentriert */
+  padding: 2rem;         /* oben/rechts/unten/links */
+  box-sizing: border-box; /* Padding zählt zur Breite */
+}
+
+/* ===== BLOG CONTAINER ===== */
+.blog-container {
+  display: flex;
+  flex-direction: column;      /* Überschrift über Strophen */
+  align-items: flex-start;         /* Container horizontal zentriert */
+  justify-content: flex-start; /* alles oben ausrichten */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== ÜBERSCHRIFT ===== */
+.blog-container h2 {
+  font-size: 2rem;           /* ggf. anpassen pro Gedicht */
+  font-weight: 100;
+  letter-spacing: 1rem;
+  opacity: 0.6;
+  max-width: 600px;             /* Breite begrenzen */
+  width: 100%;                  /* füllt max-width */
+  margin: 0 0 3rem 0;           /* Abstand nach unten */
+  text-align: left;             /* linksbündig */
+}
+
+/* ===== STROPHEN ===== */
+.blog-container .strophe {
+  font-weight: 200;
+  font-size: 1.05rem;
   line-height: 1.8;
+  max-width: 600px;            /* gleiche Breite wie Überschrift */
+  width: 100%;                 /* füllt max-width */
+  margin: 0 0 1rem 0;          /* Abstand nach unten */
+  text-align: left;            /* linksbündig */
+  opacity: 0.9;
+  letter-spacing: 0.05rem;     /* optional, für Gedichte */
 }
 
-.center-small {
+/* ===== LETZTE STROPHE ===== */
+.blog-container .strophe:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== RESPONSIVE FÜR KLEINERE FENSTER ===== */
+@media (max-width: 700px) {
+  .main-content.blog {
+    max-width: 100%;    /* passt sich Fensterbreite an */
+    padding: 1rem;      /* kleineres Padding */
+  }
+
+
+  .blog-container h2,
+  .blog-container .strophe {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    transform: none !important;
+    margin-left: 0 !important;
+    padding-left: 1rem !important;
+  }
+}
+
+
+
+
+// =============================
+// WORTE
+// =============================
+
+.worte-überschrift {
+  font-weight: 100;
+  font-size: 3.5rem;
+  letter-spacing: 2.2rem;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.worte-kleineüberschrift {
+  font-weight: 100;
+  font-size: 2.5rem;
+  letter-spacing: 2.2rem;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.worte-etymologie {
+  font-weight: 100;
+  font-size: 0.85rem;
+  opacity: 1;
+  letter-spacing: 0.3rem;
+  text-align: left;
+}
+
+.worte-text {
+  font-weight: 100;
+  font-size: 1.5rem;
+  opacity: 1;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+.worte-zitat {
+  font-weight: 100;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+
+
+
+// =============================
+// FRAGIL
+// =============================
+
+.fragil {                          
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  letter-spacing: 2.3rem;
+  font-size: 2.3rem;
+  opacity: 0.9;
+}
+
+.fragil-etymology {      
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.3rem;
+  opacity: 0.7;
+}
+
+.fragil-text {
+  position: relative;
+  text-align: left;
+  left: 19.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+.fragil-zitat {
+  position: relative;
+  text-align: left;
+  left: 19.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.08rem;
+  opacity: 0.8;
+}
+
+// =============================
+// UNERGRÜNDLICH
+// =============================
+
+.unergründlich {
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  letter-spacing: 0.9rem;
+  font-size: 2.3rem;
+  opacity: 0.9;
+}
+
+.unergründlich-etymology {
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.06rem;
+  opacity: 0.6;
+}
+
+.unergründlich-text {
+  position: relative;
+  text-align: left;
+  left: 24.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+.unergründlich-zitat {
+  position: relative;
+  text-align: left;
+  left: 24.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.08rem;
+  opacity: 0.8;
+}
+
+// =============================
+// beseelt
+// =============================
+
+.beseelt {
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  letter-spacing: 1.8rem;
+  font-size: 2.3rem;
+  opacity: 0.9;
+}
+
+// =============================
+// verwegen
+// =============================
+
+.verwegen {
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  letter-spacing: 1.8rem;
+  font-size: 2.3rem;
+  opacity: 0.9;
+}
+
+.verwegen-etymology {
+  position: relative;
+  text-align: left;
+  left: -5.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.06rem;
+  opacity: 0.7;
+}
+
+.verwegen-text {
+  position: relative;
+  text-align: left;
+  left: 24.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+.verwegen-zitat {
+  position: relative;
+  text-align: left;
+  left: 24.5rem;
+  font-size: 0.9em;
+  letter-spacing: 0.08rem;
+  opacity: 0.8;
+}
+
+// =============================
+// Psychologie
+// =============================
+
+.dick {
   text-align: center;
-  margin: 1rem 0;   /* kleinerer Abstand über und unter */
-  line-height: 1.2; /* kleinerer Zeilenabstand */
+  font-weight: 300;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.center-line {
-  text-align: center; /* zentriert den Text */
-  margin: 0;           /* kein Abstand oben/unten, mit br mehrere zeilen untereinander */
-  padding: 0;          /* kein Padding */
-  line-height: 1.8;    /* Zeilenabstand */
+.zusatz {
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-align: right;
 }
 
+.text-abstand {
+  letter-spacing: 0.07rem;
+}
+// =============================
+// Emotionen überlebensiwchtig
+// =============================
+
+ .überlebenswichtig-überschrift1 {
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+  font-size: 1.7rem; 
+  opacity: 0.9;
+ }
+
+ .überlebenswichtig-überschrift2 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-size: 1.4rem; 
+  opacity: 0.9;
+ }
+
+ .zusatz {
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-align: right;
+}
+ 
+// =============================
+// FRAGEZEICHEN
+// =============================
+
+/* ==============================
+   Container für Wörter
+   ============================== */
+.main-content.words .words-container > h2 {
+  font-size: 2.5rem !important;  /* !important stellt sicher, dass es greift */
+  font-weight: 100 !important;
+  letter-spacing: 1rem !important;
+  opacity: 0.6 !important;
+  margin: 6rem 0 0 0   !important;
+  text-align: left !important;
+  max-width: 600px !important;
+  width: 100% !important;
+}
+
+/* ==============================
+   Innerer Container für ein Wort
+   ============================== */
+.words-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;    // linksbündig
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 3rem;        // Abstand zum nächsten Wort
+}
+
+/* ==============================
+   Überschrift (Wort)
+   ============================== */
+.words-container h2 {
+  font-size: 4rem;         // unabhängig anpassbar
+  font-weight: 100;
+  letter-spacing: 1rem;
+  opacity: 0.75;
+  margin: 0 0 0.5rem 0;      // unten Abstand zu Etymologie
+  text-align: left;
+  max-width: 600px;        // gleiche Breite wie Gedichte
+  width: 100%;
+  position: relative;      // optional, nur wenn nötig
+  left: 0;  
+}
+
+/* ==============================
+   Etymologie
+   ============================== */
+.words-container .etymology {
+  font-size: 0.9rem;         // unabhängig anpassbar
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin: 0 0 3rem 0;        // Abstand zu Haupttext
+  text-align: left;
+}
+
+/* ==============================
+   Haupttext
+   ============================== */
+.words-container .text {
+  font-size: 1.2rem;         // unabhängig anpassbar
+  letter-spacing: 0.05rem;
+  line-height: 1.8;
+  opacity: 1;
+  margin: 0 0 3rem 0;        // Abstand zum Zitat
+  text-align: left;
+  font-weight: 200;
+}
+
+/* ==============================
+   Zitat
+   ============================== */
+.words-container .zitat {
+  font-size: 0.9rem;         // unabhängig anpassbar
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin: 0;                 // kein zusätzlicher Abstand, kann angepasst werden
+  text-align: left;
+}
+
+/* ==============================
+   Responsive Anpassungen
+   ============================== */
+@media (max-width: 700px) {
+  .main-content.words {
+    max-width: 100%;
+    padding: 2rem 1rem 2rem;
+  }
+
+  .words-container h2,
+  .words-container .etymology,
+  .words-container .text,
+  .words-container .zitat {
+    max-width: 100%;
+  }
+}
+
+
+.links {
+  text-align: left;
+}
+
+.textblock {
+  display: flex;
+  gap: 2rem;          // Abstand zwischen Überschrift und Text
+  align-items: flex-start;
+}
+
+.texte {                          
+  position: relative;
+  font-weight: 100;
+  text-align: left;
+  left: -3rem;
+  letter-spacing: 1.1rem;
+  font-size: 5vw;
+  opacity: 0.8;
+}
+
+.texte-text {
+  font-weight: 100;
+  position: relative;
+  text-align: left;
+  left: -2.3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.45rem;
+  opacity: 0.8;
+}
+
+
+.zitat-dünn {
+  opacity: 0.6;
+  text-align: right;
+  font-style: italic;
+  font-size: 0.8rem;
+}
 
 .poetry {
   text-align: center;
@@ -293,8 +782,17 @@ p {
   border-top: 0.5px solid #44434d;
 }
 
-.etymology {
-  font-size: 0.8rem;
+.etymology-dünn-weit {
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: 0,6rem;
+  font-style: italic;
+  margin-top: 0;
+  opacity: 0.6;
+}
+
+.klein {
+  font-size: 0.9rem;
   font-style: italic;
   text-align: center;
   margin-bottom: 1rem;
@@ -314,14 +812,7 @@ p {
   margin-top: 0.2rem; /* nur minimaler Abstand zur Zeile darüber */
 }
 
-/* rechtszentriert */
 
-.text-right {
-  text-align: right;  /* alles rechts ausrichten */
-  margin: 0;          /* kein extra Abstand außen */
-  padding: 0;         /* kein Abstand innen */
-  line-height: 1.8;   /* Zeilenabstand wie normaler Text */
-}
 
 .text-right-wide {    /*genauso viel Abstand wie mittiger Text */
   text-align: right;
@@ -333,30 +824,112 @@ p {
   margin: 0;
 }
 
+.center-small {
+  text-align: center;
+  margin: 1rem 0;   /* kleinerer Abstand über und unter */
+  line-height: 1.2; /* kleinerer Zeilenabstand */
+}
 
-/* Text weiter in Mitte */
+.center-line {
+  text-align: center; /* zentriert den Text */
+  margin: 0;           /* kein Abstand oben/unten, mit br mehrere zeilen untereinander */
+  padding: 0;          /* kein Padding */
+  line-height: 1.8;    /* Zeilenabstand */
+}
 
 .text-mitte {
   max-width: 600px;      /* bestimmt die Textbreite */
   margin: 0 auto;        /* schiebt den Block in die Mitte */
 }
 
-
-/* Abstände */
-
-.spacer-1 {
-  height: 2rem;
+.etymology {           /*Etymologie normal */
+  font-size: 0.8rem;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
-.spacer-2 {
-  height: 3rem;
+.etymology-dünn-kursiv {      /*Etymologie durchsichtiger */
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-style: italic;
+  margin-top: 0;
+  opacity: 0.6;
 }
 
-.spacer-3 {
-  height: 4rem;
+.toc h2.text-delta {
+  margin-bottom: 6em !important; /* Abstand unter der Überschrift */
+  font-size: inherit;  /* Schriftgröße bleibt vom Theme */
 }
 
-.spacer-0 {
-  height: 1rem;
+
+
+// =============================
+// RECHTSZENTRIERT
+// =============================
+
+.text-right {
+  text-align: right;  /* alles rechts ausrichten */
+  margin: 0;          /* kein extra Abstand außen */
+  padding: 0;         /* kein Abstand innen */
+  line-height: 1.8;   /* Zeilenabstand wie normaler Text */
 }
 
+.text-right-dünn {
+  text-align: right;  /* alles rechts ausrichten */
+  margin: 0;          /* kein extra Abstand außen */
+  opacity: 0.6;
+  padding: 0;         /* kein Abstand innen */
+  line-height: 1.8;   /* Zeilenabstand wie normaler Text */
+}
+
+.text-right-kursiv {
+  text-align: right;  /* alles rechts ausrichten */
+  margin: 0;          /* kein extra Abstand außen */
+  padding: 0;         /* kein Abstand innen */
+  line-height: 1.8;   /* Zeilenabstand wie normaler Text */
+  font-style: italic;
+}
+
+// =============================
+// TEXTAUSRICHTUNG MITTIG
+// =============================
+
+.center-text {
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 1.8;
+}
+
+.mittig {
+  text-align: left;
+}
+
+.page-content {
+  min-width: 0;
+}
+
+.main-content p {
+  font-size: 1rem; // 16px
+}
+
+/* Für alle Bildschirme, wo Sidebar eingeklappt ist */
+@media (max-width: 899px) { /* alles unter mittlerer Desktopbreite */
+  .main-content.blog {
+    margin-left: 0 !important;   /* keine Reservierung für Sidebar */
+    max-width: 100% !important;  /* füllt den verfügbaren Platz */
+    padding-left: 1rem;          /* optional, für Abstand links */
+    padding-right: 1rem;         /* optional, für Abstand rechts */
+  }
+}
+
+
+
+@media (max-width: 899px) {
+  .main-content {
+    margin-left: 0 !important;
+    padding-left: 1rem !important;
+  }
+}

@@ -1,4 +1,4 @@
-title: Text und Tiefe
+title: textundtiefe
 description: Essays, Gedanken und Kurzgeschichten über Wahrnehmung, Emotion und Menschsein
 theme: just-the-docs
 color_scheme: dark
@@ -10,6 +10,8 @@ toc_label: "Inhalt"
 search_enabled: false
 nav_enabled: true
 heading_anchors: false
+breadcrumbs: false
+main-header: false
 
 just_the_docs:
   custom_css:

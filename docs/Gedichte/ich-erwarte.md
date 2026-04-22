@@ -5,46 +5,45 @@ permalink: /ich-erwarte/
 parent: Gedichte
 ---
 
-
-<div class="spacer-3"></div>
-
-
-# ich erwarte
+<div class="spacer-1"></div>
 
 
+<div class="main-content blog">
+<div class="blog-container">
+  <h2>ich <br>erwarte</h2>
+  <p class="strophe">
+ich würde so gerne wenig erwarten <br>   
+doch erwarte häufig zu viel<br> 
+ich erwarte nicht immer all das zu fühlen<br>   
+was ich lieber nicht fühlen will
+</p>
+<p class="strophe">
+ich erwarte zu wissen warum dinge geschehen <br>
+und menschen sich verhalten <br>
+warum systeme bestehen und sich wie ich <br>
+nur langsam neu entfalten
+</p>
+  <p class="strophe">
+ich würde so gern unverwüstbar sein<br>
+unerschrocken gestanden im leben<br>
+mit feinen gedanken, stets richtigen worten<br>
+im einklang mit allem und jedem
+</p>
+  <p class="strophe">
+ich würde so gerne wenig erwarten<br>        
+doch erwarte häufig zu viel<br>   
+ich erwarte so oft nicht genug zu bekommen<br>
+von dem was ich haben will
+</p>
+  <p class="strophe">
+ich erwarte zu haben was es einfacher macht<br>   
+und mich nicht ständig lernen lässt<br>   
+dass erwartung zu haben bedeutet dass man <br>   
+das hier und jetzt nicht schätzt  
+</p>
+  <p class="strophe">
+wenn ich wollte bekäme ich niemals genug<br> 
+doch ich will nicht und würde so gern
+</p>
 
-<div class="spacer-2"></div>
-
-
-
-Ich würde so gerne wenig erwarten, doch erwarte häufig zu viel.  
-Ich erwarte so gerne, nicht all das zu fühlen, was ich lieber nicht fühlen will.  
-Ich erwarte zu wissen, warum Dinge geschehen und Menschen sich verhalten,  
-warum Systeme bestehen und sich wie ich nur langsam neu entfalten.   
-
-
-
-Ich würde so gerne wenig erwarten, um mich selbst nicht mehr zu enttäuschen,  
-mit dunklen Gedanken, offensichtlichen Enden, mit unheilvollen Leuten.  
-Ich würde so gerne unverwüstbar sein, unerschrocken und sicher im Leben,  
-mit richtigen Worten, feinen Gedanken, im Einklang mit allem und jedem.  
-
-
-
-Ich würde so gerne wenig erwarten, doch erwarte so gerne zu viel.  
-Ich erwarte so gerne, nicht genug zu bekommen, von dem was ich haben will.  
-Ich erwarte zu haben, was es einfacher macht und mich nicht immer lernen lässt,  
-dass Erwartungen haben bedeutet, dass man das Hier und Jetzt nicht schätzt.  
-
-
-
-Ich würde so gerne wenig erwarten, um endlich frei zu sein,  
-frei von Wollen und Haben, Begehren und Neiden, frei von der Angst vor dem Nein.  
-Ich würde so gerne beständiger sein, verankert im Wandel des Lebens,  
-gefestigt durch Liebe, gefestigt durch Ruhe, gefestigt durch Freuden des Gebens.   
-
-
-
-Wenn ich wollte bekäme ich niemals genug  
-doch ich will nicht und würde so gern.
-
+</div>

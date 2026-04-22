@@ -2,28 +2,40 @@
 layout: default
 title: fragil
 permalink: /fragil/
-parent: Worte
+parent: schöne Wörter
 ---
 
-<div class="spacer-3"></div>
+<div class="spacer-5"></div>
 
+<div class="worte-überschrift">fragil </div>
+<div class="worte-etymologie"> von französisch frangere <em>zerbrechen</em></div>
 
-# fragil
+<div class="spacer-4"></div>
 
-<div class="etymology">lat. fragilis "zerbrechlich, hinfällig, zart" von lat. frangere "brechen, zerbrechen"</div>
+<div class="worte-text">überzart, zerbrechlich</div>
 
+<div class="spacer-0"></div>
 
-
-<div class="spacer-2"></div>
-
-
-
-
-Fragil ist ein gehobenes Wort und bedeutet "zart, instabil, anfällig, brüchig". 
-
-
+<div class="worte-zitat">
+«Nicht fragil wie eine Blume - fragil wie eine Bombe.»<br>
+Frida Kahlo</div>
 
 
 
-Früher noch bezog es sich im physischen Sinne auf leicht zerbrechliche Gegenstände, heute bezieht es sich auch auf die Psyche oder Emotionales. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

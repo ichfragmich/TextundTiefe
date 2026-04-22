@@ -1,26 +1,24 @@
 ---
 layout: default
-title: Worte
-permalink: /Worte/
+title: schöne Wörter
+permalink: /schöne-Wörter/
 has_children: true
-has_toc: true
+has_toc: false
 nav_order: 4
 ---
 
-<div class="spacer-3"></div>
+<div class="spacer-8"></div>
 
-# Worte
+<div class="worte-text">manche</div>
 
-<div class="etymology">urgerm. *wurda- "sprechen, sagen"</div>
+<div class="worte">Wörter</div>
 
-
-<div class="spacer-2"></div>
-
-
-<div class="text-center">
-Ich liebe alle Worte, doch manche sind so schön, dass mein Herz lacht, wenn ich über sie stolpere.
-</div>
+<div class="worte-text">schmecken ganz besonders gut</div>
 
 
-<div class="spacer-2"></div>
+
+
+
+
+
 

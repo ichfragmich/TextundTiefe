@@ -3,9 +3,8 @@ layout: default
 title: gefunden werden
 permalink: /gefunden-werden/
 parent: Texte
+published: false
 ---
-
-<div class="spacer-3"></div>
 
 # gefunden werden
 
