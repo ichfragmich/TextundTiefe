@@ -25,7 +25,7 @@ parent: schöne Wörter
 
 <div class="spacer-0"></div>
 
-<div class="worte-zitat">«[...] ein Liebhaber der Schmetterlinge, der Bienen und aller farbigen und beschwingten Geschöpfe [...] » <br>Ina Seidel</div>
+<div class="worte-zitat">«[...] ein Liebhaber der Schmetterlinge, der Bienen und aller farbigen und beschwingten Geschöpfe [...] » <br><em>Ina Seidel</em></div>
 
 
 

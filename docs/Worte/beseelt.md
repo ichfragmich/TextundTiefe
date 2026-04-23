@@ -17,4 +17,4 @@ parent: schöne Wörter
 <div class="spacer-0"></div>
 
 <div class="worte-zitat">
-«Das gute Leben ist von Liebe beseelt und von Wissen geleitet.»<br>Bertrand Russell</div>
+«Das gute Leben ist von Liebe beseelt und von Wissen geleitet.»<br><em>Bertrand Russell</em></div>

@@ -16,4 +16,4 @@ parent: schöne Wörter
 
 <div class="spacer-0"></div>
 
-<div class="worte-zitat">«Auch der Zufall ist nicht unergründlich - er hat seine Regelmäßigkeit.»<br>Novalis</div>
+<div class="worte-zitat">«Auch der Zufall ist nicht unergründlich - er hat seine Regelmäßigkeit.»<br><em>Novalis</em></div>

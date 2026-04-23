@@ -18,7 +18,7 @@ parent: schöne Wörter
 
 <div class="worte-zitat">
 «Nicht fragil wie eine Blume - fragil wie eine Bombe.»<br>
-Frida Kahlo</div>
+<em>Frida Kahlo</em></div>
 
 
 
